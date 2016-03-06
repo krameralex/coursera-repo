@@ -1,0 +1,60 @@
+/* Personal styles written by Alexander Kramer
+Coursera - HTML / CSS / JS class
+March 5, 2016 */
+
+* {
+	
+	box-sizing: border-box;
+	padding: 0;
+}
+
+div#custombtn .icon-bar {
+	background-color:#E37AE3;
+}
+
+
+div#custombtn button {
+	background-color:#dfaedf;
+}
+
+div#custombtn button:hover{
+	
+	background-color:#996999;
+}
+
+
+ul#nav-list li {
+	
+	background-color:#E5C7E5;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+ul#nav-list li:hover {
+	background-color:#E5A9E5;
+	color:#996999;
+}
+
+
+section {
+	background-color:#996999;
+	width:90%;
+	padding-bottom:1em;
+	/* margin: 10px auto 10px auto; */
+}
+
+section p {
+	margin:1em;
+}
+
+.btplink, .btplink:visited{
+	padding: 0.5em;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.btplink:hover{
+	text-decoration:underline;
+}
