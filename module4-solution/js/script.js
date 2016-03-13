@@ -120,7 +120,8 @@ function buildAndShowHomeHTML (categories) {
 	  
 	  // string is what we're looking at to put this into
 			//XXXTODO: needs to return the full HTML and tags
-		var homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlUrl, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
+			// change homeHtmlUrl to homeHtml
+		var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
       
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
