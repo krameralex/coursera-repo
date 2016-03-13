@@ -107,7 +107,6 @@ function buildAndShowHomeHTML (categories) {
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
       // Look through this code for an example of how to do use the insertProperty function.
 	  
-	  
 		  // WARNING! You are inserting something that will have to result in a valid Javascript
 		  // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
 		  // being passed into the $dc.loadMenuItems function. Think about what that argument needs
@@ -120,15 +119,10 @@ function buildAndShowHomeHTML (categories) {
 	  // string is what we're looking at to put this into
 		var homeHtmlToInsertIntoMainPage =  insertProperty(homeHtmlUrl, "randomCategoryShortName", chosenCategoryShortName);
       
-	  
-	  
-	  
-	  
-
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that. 
-		var categoriesViewHtml = ("#main-content", homeHtmlToInsertIntoMainPage);
+		var categoriesViewHtml = (homeHtmlUrl, homeHtmlToInsertIntoMainPage);
        //     buildCategoriesViewHtml(categories, 
        //                             categoriesTitleHtml,
        //                             categoryHtml);
