@@ -126,7 +126,7 @@ function buildAndShowHomeHTML (categories) {
        //     buildCategoriesViewHtml(categories, 
        //                             categoriesTitleHtml,
        //                             categoryHtml);
-       //   insertHtml("#main-content", categoriesViewHtml);
+       insertHtml("#main-content", categoriesViewHtml);
       
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
